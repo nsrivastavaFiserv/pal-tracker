@@ -4,7 +4,7 @@ notifications:
   email: false
 env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
-if: branch = develop
+if: branch = master
   jobs:
     include:
       - stage: build and publish
