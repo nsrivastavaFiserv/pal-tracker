@@ -26,7 +26,6 @@ public class TimeEntryControllerTest {
         timeEntryRepository = mock(TimeEntryRepository.class);
         controller = new TimeEntryController(timeEntryRepository);
     }
-
     @Test
     public void testCreate() throws Exception {
         long projectId = 123L;
